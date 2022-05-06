@@ -58,6 +58,7 @@ const readAndAppend = (content, file) => {
  });
 };
 
+// Function to read data from a given a file and filter out some content
 const readAndDelete = (id, file) => {
     fs.readFile(file, 'utf8', (err, data) => {
       if (err) {
