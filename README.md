@@ -9,7 +9,7 @@ A small business owner wants to be able to write and save notes so that they can
 6. When they click on the Write icon in the navigation at the top of the page, then they are presented with empty fields to enter a new note title and the note’s text in the right-hand column.
 7. When they click on a Delete icon for a note in the list in the left-hand column, then that note is removed from the list.
 # Screenshot of Browser
-![code-quiz demo](./note-taker-screenshot.png)
+![code-quiz demo](./public/assets/images/note-taker-screenshot.png)
 # Link to Deployed Page
 https://agile-forest-14677.herokuapp.com/notes
 
