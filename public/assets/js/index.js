@@ -71,7 +71,9 @@ const handleNoteSave = () => {
     title: noteTitle.value,
     text: noteText.value,
   };
-  saveNote(newNote).then(() => {
+  saveNote(newNote).then(async (data) => {
+    const res = await data.json();
+    console.log(res);
     getAndRenderNotes();
     renderActiveNote();
   });
@@ -89,7 +91,9 @@ const handleNoteDelete = (e) => {
     activeNote = {};
   }
 
-  deleteNote(noteId).then(() => {
+  deleteNote(noteId).then(async (data) => {
+    const res = await data.json();
+    console.log(res);
     getAndRenderNotes();
     renderActiveNote();
   });
