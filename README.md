@@ -11,5 +11,5 @@ A small business owner wants to be able to write and save notes so that they can
 # Screenshot of Browser
 ![code-quiz demo](./public/assets/images/note-taker-screenshot.png)
 # Link to Deployed Page
-https://agile-forest-14677.herokuapp.com/notes
+https://agile-forest-14677.herokuapp.com
 
